@@ -1,0 +1,74 @@
+html, body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: pink;
+  font-family: 'Dosis', sans-serif;
+  font-size: 15px;
+  color: #FF6AD5;
+}
+#wrapper{
+    overflow: hidden;
+    width: 1200px;
+    background-color: #C774E8;
+    margin: 50px auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+header{
+    width: 1200px;
+    float: left;
+    display: inline-block;
+    background-color: #94D0FF;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    text-align: center;
+}
+
+#main{
+  width: 750px;
+  height: 500px;
+  margin: 50px;
+  float: left;
+  display: inline-block;
+  background-color: #94D0FF;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+#aside{
+  width: 300px;
+  height: 500px;
+  float: left;
+  margin-top: 50px;
+  display: inline-block;
+  background-color: #94D0FF;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+#section{
+  width: 1100px;
+  height: 300px;
+  margin: 0 50px 50px 50px;
+  float:left;
+  display: inline-block;
+  background-color: #94D0FF;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+footer{
+  width: 1200px;
+  height: auto;
+  display: inline-block;
+  background-color: #94D0FF;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+a:link, a:visited {
+    background-color: pink;
+    color: purple;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    background-color: rgb(255, 100, 100);
+}
